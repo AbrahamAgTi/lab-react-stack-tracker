@@ -1,7 +1,7 @@
 function HomePage() {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>StarTracker:Discover Tech Stacks Used by Top Companies</h1>
     </div>
   );
 }
