@@ -7,7 +7,7 @@ function HomePage({ companies }) {
 
       <div>
         {companies.map((company) => (
-          <div key={company.id}>
+          <div className='company-container' key={company.id}>
             <Link to={`/company/${company.name}`}>
               <p>{company.name}</p>
               <img src={company.logo} alt="companyLogo" />

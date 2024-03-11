@@ -30,7 +30,7 @@ const [technologies,setTechnologies] = useState(technologiesFile)
   <Routes>
     <Route path="/" element ={<HomePage companies={companies}/>}></Route>
     <Route path="/company/:companySlug" element ={<CompanyPage companies={companies}/>}></Route>
-    <Route path="/tech/:slug" element ={<TechnologyPage technologies={technologies} />}></Route>
+    <Route path="/tech/:slug" element ={<TechnologyPage technologies={technologies}  />}></Route>
     
     
   </Routes>
