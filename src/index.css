@@ -43,3 +43,21 @@ h1 {
     width: 200px;
 }
 
+.profile-container{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.tech-stack{
+
+
+}
+
+.tech-stack img{
+   
+    
+    width: 120px;
+}
+

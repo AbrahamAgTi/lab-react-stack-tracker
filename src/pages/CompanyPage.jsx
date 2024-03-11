@@ -13,14 +13,14 @@ function CompanyPage({ companies }) {
   return (
     <div>
       <h1>Company Profile</h1>
-      <div>
+      <div className="profile-container">
         <p>Name: {companyDetails.name}</p>
         <p>Website: {companyDetails.website}</p>
         <p>Description: {companyDetails.description}</p>
-        <p>Location: {companyDetails.location}</p>
+
       </div>
 
-      <div>
+      <div className="tech-stack">
         <h2>Technology stack</h2>
         {companyDetails.techStack.map((techStack) => (
           <div key={techStack.id}>
